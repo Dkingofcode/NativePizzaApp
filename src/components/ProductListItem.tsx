@@ -1,7 +1,14 @@
 import { View, Text, Image } from 'react-native'
 import React from 'react'
+import { Product } from '@/types';
 
-const ProductListItem = ({ product }) => {
+type ProductListItemProps = {
+    product: Product;
+}
+
+
+
+const ProductListItem = ({ product }: ProductListItemProps) => {
   
     return (
       <View style={styles.container}>

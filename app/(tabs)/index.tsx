@@ -1,6 +1,6 @@
 import { StyleSheet, Text, View, Image } from 'react-native';
 import Colors from "@/constants/Colors"; 
-import EditScreenInfo from '@/components/EditScreenInfo';
+import EditScreenInfo from '@/src/components/EditScreenInfo';
 // import { Text, View } from '@/components/Themed';
 import products from "../../../assets/data/products";
 

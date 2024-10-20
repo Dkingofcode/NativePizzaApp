@@ -14,4 +14,10 @@ export type CartItem = {
     product_id: number;
     size: PizzaSize;
     quantity: number;
-}
+};
+
+
+
+export const OrderStatusList: OrderStatus[] = [
+    
+]
